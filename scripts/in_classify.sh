@@ -10,6 +10,5 @@
 
 # Create an environment in $DATA and give it an appropriate name
 export SINGULARITY_CACHEDIR=$DATA/sif_lib/
-export SINGULARITY_BINDPATH=$HOME:/home/zool2291,$DATA:/data/zool-mosquito_ecology/zool2291
 
-singularity exec -bind  /data/zool-mosquito_ecology/zool2291/projects/taxalogue/downloads:/home/taxalogue-1.0.0/downloads/ -bind /data/zool-mosquito_ecology/zool2291/projects/taxalogue/results:/home/taxalogue-1.0.0/results/ hemprichbennett/taxalogue_img:2024-01-08 docker://hemprichbennett/taxalogue_img:2024-01-08 bash /home/zool2291/projects/taxalogue/scripts/cluster_classify.sh
+singularity exec -bind  /data/zool-mosquito_ecology/zool2291/projects/taxalogue/downloads:/home/taxalogue-1.0.0/downloads/,/data/zool-mosquito_ecology/zool2291/projects/taxalogue/results:/home/taxalogue-1.0.0/results/ hemprichbennett/taxalogue_img:2024-01-08 docker://hemprichbennett/taxalogue_img:2024-01-08 bash /home/zool2291/projects/taxalogue/scripts/cluster_classify.sh
