@@ -1,2 +1,4 @@
 taxalogue-1.0.0/*
 *.tar.gz
+*.DS_Store
+.DS_Store
