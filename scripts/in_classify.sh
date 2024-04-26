@@ -2,7 +2,7 @@
 
 #SBATCH --job-name=taxalogue_classify # the name for the cluster scheduler
 #SBATCH --time=50:30:00 # Maximum allowed runtime per iteration
-#SBATCH --output=logfiles/taxalogue_classify.out # the name of the output files
+#SBATCH --output=logfiles/%A_taxalogue_classify.out # the name of the output files
 #SBATCH --mail-type=ALL
 #SBATCH --mem-per-cpu=300G
 #SBATCH --mail-user=david.hemprich-bennett@biology.ox.ac.uk
