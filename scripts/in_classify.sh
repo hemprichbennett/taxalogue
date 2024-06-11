@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH --job-name=taxalogue_classify # the name for the cluster scheduler
-#SBATCH --time=20:30:00 # Maximum allowed runtime per iteration
+#SBATCH --time=40:30:00 # Maximum allowed runtime per iteration
 #SBATCH --output=logfiles/%A_taxalogue_classify.out # the name of the output files
 #SBATCH --mail-type=ALL
 #SBATCH --mem-per-cpu=20G
