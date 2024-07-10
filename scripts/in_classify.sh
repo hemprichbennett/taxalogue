@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH --job-name=taxalogue_classify # the name for the cluster scheduler
-
+#SBATCH --time=120:00:00
 #SBATCH --output=logfiles/%A_taxalogue_classify.out # the name of the output files
 #SBATCH --mail-type=ALL
 #SBATCH --mem-per-cpu=30G
