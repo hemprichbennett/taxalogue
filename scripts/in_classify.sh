@@ -1,11 +1,11 @@
 #!/bin/bash
 
 #SBATCH --job-name=taxalogue_classify # the name for the cluster scheduler
-#SBATCH --time=500:00:00
+#SBATCH --time=400:00:00
 #SBATCH --output=logfiles/%A_taxalogue_classify.out # the name of the output files
 #SBATCH --mail-type=ALL
 #SBATCH --mem-per-cpu=120G
-#SBATCH --nodes=200
+#SBATCH --nodes=150
 #SBATCH --mail-user=david.hemprich-bennett@biology.ox.ac.uk
 
 
