@@ -4,7 +4,7 @@
 #SBATCH --time=350:00:00
 #SBATCH --output=logfiles/%A_taxalogue_classify.out # the name of the output files
 #SBATCH --mail-type=ALL
-#SBATCH --mem-per-cpu=120G
+#SBATCH --mem-per-cpu=140G
 #SBATCH --nodes=120
 #SBATCH --mail-user=david.hemprich-bennett@biology.ox.ac.uk
 
