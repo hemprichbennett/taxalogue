@@ -1,4 +1,4 @@
-cd /home/zool2291/projects/taxalogue/taxalogue-1.0.0
+cd /home/taxalogue-1.0.0
 
 # piping yes command in for now, as taxalogue asks for verification of wanting
 # to use an old genbank release when a new one is available
