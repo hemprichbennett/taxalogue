@@ -11,4 +11,4 @@
 # Create an environment in $DATA and give it an appropriate name
 export SINGULARITY_CACHEDIR=$DATA/sif_lib/
 
-singularity pull -F docker://hemprichbennett/taxalogue_img:2024-10-18
+singularity pull -F docker://hemprichbennett/taxalogue_img:2024-10-21
